@@ -12,7 +12,7 @@ let obj2={
     c:4,
 }
 // fun1.call(obj2,1)
-// fun1.call(obj1,4)
+fun1.call(obj1,4)
 let arr=[1,2,3,4,5];
 fun1.apply(obj1,arr)
 let fun2=fun1.bind(obj2,100)
